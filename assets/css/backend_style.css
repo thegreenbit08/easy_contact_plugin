@@ -1,0 +1,373 @@
+/* General */
+
+#footer-thankyou,
+#footer-upgrade {
+    display: none;
+}
+
+.disable-scrollbars::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* Chrome/Safari/Webkit */
+}
+
+.disable-scrollbars {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE 10+ */
+}
+
+.notify {
+    font-size: 16px;
+    text-align: center;
+}
+
+.easy_contact_table_row_background_color_white {
+    background-color: #ffffff;
+}
+
+.easy_contact_table_selected_row {
+    background-color: #dadada;
+}
+
+/* Mail Settings Backend Page */
+
+#easy_contact_mail_settings_container {
+    padding-left: 0;
+}    
+
+#easy_contact_mail_settings_card {
+    width: 100%;
+    max-width: initial;
+    font-size: 14px;
+    padding: 0;
+}
+
+#easy_contact_auto_mail_settings_panel,
+#easy_contact_permission_settings_panel {
+    margin-top: 25px;
+}
+
+#easy_contact_sender_name,
+#easy_contact_sender_mail_adr,
+#easy_contact_auto_response_message,
+#easy_contact_auto_response_message_subject {
+    width: 100%;
+    font-size: normal;
+}
+
+#easy_contact_auto_response_message {
+    min-height: 150px;
+}
+
+#easy_contact_auto_response_message_settings_form .row:not(:nth-last-child(2)) {
+    margin-top: 10px;
+}
+
+#easy_contact_auto_response_message_settings_form .row:first-child {
+    margin-top: 15px;
+}
+
+#easy_contact_sender_mail_adr-error {
+    color: red;
+}
+
+#easy_contact_publish_auto_response_message_settings_btn {
+    margin-top: 20px;
+    letter-spacing: .5px;
+    min-width: 150px;
+}
+
+#easy_contact_auto_response_message_table_paginate .page-item.active .page-link{
+    background-color: #0071a1 !important;
+    border-color: #0071a1 !important;
+}
+
+@media(max-width: 767px) {
+    #easy_contact_publish_auto_response_message_settings_btn,
+    #easy_contact_save_auto_response_message_btn,
+    #easy_contact_update_auto_response_message_btn,
+    #easy_contact_delete_auto_response_message_btn,
+    #easy_contact_select_all_auto_response_message_btn {
+        width: 100% !important;
+    }
+
+    #easy_contact_publish_auto_response_message_settings_btn {
+        margin-bottom: 0px;
+    }
+}
+
+/* Preview Modal */
+
+#easy_contact_auto_response_message_preview_modal .modal-content {
+    background-color: #fcfcfc;
+}
+
+#easy_contact_auto_response_message_preview_modal .modal-title {
+    font-size: 20px !important;
+    font-family: "Tahoma";
+}
+
+#easy_contact_auto_response_message_preview_modal_subject_col label,
+#easy_contact_auto_response_message_preview_modal_subject {
+    font-size:16px;
+    margin-bottom: 0 !important;
+}
+
+#easy_contact_auto_response_message_preview_modal_subject_col {
+    font-weight: bold;
+}
+
+#easy_contact_auto_response_message_preview_modal_message {
+    width: 100%;
+    min-height: 150px;
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+.easy_contact_auto_response_message_preview_modal_btn {
+    min-width: 100px;
+    margin-left: 10px !important;
+}
+
+.easy_contact_permission_setting {
+    min-width: 150px;
+    margin-bottom: 10px;
+    font-size: normal !important;
+}
+
+#easy_contact_set_permission_settings_btn {
+    margin-top: 15px;
+}
+
+@media(max-width: 578px) {
+    #easy_contact_permission_settings_panel select,
+    #easy_contact_set_permission_settings_btn {
+        min-width: 100%;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    #easy_contact_permission_settings_panel .row > [class^="col"]:nth-child(2) {
+        margin-bottom: 15px;
+    }
+}
+
+#easy_contact_permission_setting_first_row {
+    padding-top: 10px;
+}
+
+#easy_contact_auto_response_message_table_wrapper {
+    margin-top: 20px;
+}
+
+#easy_contact_auto_response_message_table {
+    width: 100%;
+    background-color: #f7f7f7;
+    margin-top: 10px;
+}
+
+#easy_contact_auto_response_message_table tbody tr:hover {
+    background-color: #f0f0f0 !important;
+    cursor: pointer;
+}
+
+#easy_contact_auto_response_message_table thead tr th {
+    padding: 10px 0 10px 0;
+} 
+
+#easy_contact_auto_response_message_table tbody tr td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#easy_contact_auto_response_message_table tbody tr td p {
+    margin-bottom: 0;
+}
+
+#easy_contact_auto_response_message_table_separator {
+    margin: 25px 0 25px 0;
+}
+
+#easy_contact_auto_response_message_table tr th:first-child,
+#easy_contact_auto_response_message_table tr td:first-child {
+    padding-left: 20px;
+    width: 10%;
+}    
+
+#easy_contact_auto_response_message_table tr th:nth-child(2),
+#easy_contact_auto_response_message_table tr td:nth-child(2) {
+    width: 15%;
+}
+
+#easy_contact_auto_response_message_table tr th:nth-child(3),
+#easy_contact_auto_response_message_table tr td:nth-child(3) {
+    width: 15%;
+}
+
+#easy_contact_auto_response_message_table tr th:nth-child(4),
+#easy_contact_auto_response_message_table tr td:nth-child(4) {
+    width: 20%;
+}
+
+#easy_contact_auto_response_message_table tr th:nth-child(5),
+#easy_contact_auto_response_message_table tr td:nth-child(5) {
+    width: 20%;
+}
+
+
+
+/* Message CMS */
+
+#easy_contact_cms_message_view_container {
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+#easy_contact_cms_message_view_card {
+    padding: 0;
+    max-width: initial !important;
+}
+
+#easy_contact_cms_message_view .row {
+    padding-right: 20px;
+    letter-spacing: 0.5px;
+    font-size: small;
+}
+
+#easy_contact_cms_message_view .row input,
+#easy_contact_cms_message_view textarea {
+    max-width: 500px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+}
+
+#easy_contact_message_details_id {
+    display: none;
+}
+
+#easy_contact_cms_message_view .row .col:first-child label {
+    font-weight: bold;
+}
+
+#easy_contact_cms_message_view textarea {
+    min-height: 100px;
+    margin-bottom: 20px;
+}
+
+#easy_contact_delete_message_btn,
+#easy_contact_select_all_btn,
+#easy_contact_reply_contact_form_message_btn
+{
+    min-width: 150px;
+    letter-spacing: .5px;
+}
+
+@media(max-width: 576px) {
+    #easy_contact_delete_message_btn,
+    #easy_contact_select_all_btn {
+        width: 100%;
+    }
+}
+
+#easy_contact_messages_table_wraper {
+    margin: 20px 20px 20px 0px;
+}
+
+#easy_contact_messages_table {
+    width: 100%;
+    font-size: 14px;
+}
+
+#easy_contact_messages_table_length,
+#easy_contact_messages_table_filter,
+#easy_contact_messages_table_info,
+#easy_contact_messages_table_paginate {
+    font-size: 12px;
+}
+
+#easy_contact_messages_table tbody tr:hover {
+    background-color: #f0f0f0 !important;
+    cursor: pointer;
+}
+
+#easy_contact_messages_table tr td {
+    padding: 10px;
+}
+
+#easy_contact_messages_table thead {
+    background-color: #f7f7f7;
+}
+
+#easy_contact_messages_table th {
+    text-align: left;
+    padding: 10px;
+}
+
+#easy_contact_messages_table_hr {
+    margin: 30px 25px 30px 0; 
+}
+
+.easy_contact_message_is_new {
+    font-weight: bold !important;
+}
+
+/* Reply Contact Form Message Modal */
+
+#easy_contact_reply_contact_form_message_modal {
+    font-family: "Arial";
+    font-size: 14px;
+    color: #000000;
+}
+
+#easy_contact_reply_contact_form_message_modal .modal-content {
+    background-color: #fafafa;
+}
+
+#easy_contact_reply_contact_form_message_mail_header_details_tbl tr td:first-child {
+    padding-right: 10px !important;
+}
+
+#easy_contact_reply_contact_form_message_modal_subject_input {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#easy_contact_reply_contact_form_message_modal_message_input {
+    width: 100%;
+    min-height: 150px;
+}
+
+.easy_contact_reply_contact_form_message_modal_btn {
+    min-width: 100px;
+    letter-spacing: .5px;
+}
+
+#easy_contact_reply_contact_form_message_modal_reply_btn {
+    margin-right: 10px;
+}
+
+/* Info */
+
+#easy_contact_info_container {
+    padding-left: 0;
+}
+
+#easy_contact_info_card {
+    width: 100%;
+    max-width: initial;
+    font-size: 14px;
+    padding: 0;
+}
+
+/* Statistic */
+#easy_contact_clear_statistic {
+
+    min-width: 150px;
+    letter-spacing: .5px;
+}
+
+
+
+
+

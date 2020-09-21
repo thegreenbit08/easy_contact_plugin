@@ -1,0 +1,1 @@
+INSERT INTO `wp_easy_contact_auto_response_message` (`id`, `creation_date`, `last_modified_date`, `subject`, `message`) VALUES (1, '2020-09-19 07:48:03', '2020-09-01 00:00:00', 'Thank you for your message', 'Hello and thanks for your message. We received your message and will get in touch with you as soon as possible.')

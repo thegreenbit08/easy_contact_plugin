@@ -1,0 +1,2 @@
+INSERT INTO `wp_easy_contact_form_submits` (`id`, `name`, `phone`, `email`, `reciption_date`, `message`, `is_read`, `response_date`) VALUES
+(1, 'TheGreenBit', '', 'thegreenbit@mail.ee', '2020-09-01 00:00:00', 'Thank you for using Easy Contact WordPress Mail Plugin. We love to keep things simple and easy.\r\n\r\nIf you have a question, recommendation or wish a customization we are looking forward to hearing from you.\r\n\r\nTheGreenBit\r\nthegreenbit@mail.ee', 1, NULL)
